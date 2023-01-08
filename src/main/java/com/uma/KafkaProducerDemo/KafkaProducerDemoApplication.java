@@ -1,4 +1,4 @@
-package com.ram.KafkaProducerDemo;
+package com.uma.KafkaProducerDemo;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.ram.KafkaProducerDemo.Producer.KafkaProducerImpl;
+import com.uma.KafkaProducerDemo.Producer.KafkaProducerImpl;
 
 @SpringBootApplication
 public class KafkaProducerDemoApplication implements ApplicationRunner
@@ -41,8 +41,6 @@ public class KafkaProducerDemoApplication implements ApplicationRunner
 		sheetList.add("flights");
 		sheetList.add("cars");
 		sheetList.add("bundle");
-
-
 		return sheetList;
 	}
 

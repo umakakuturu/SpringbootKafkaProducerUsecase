@@ -1,4 +1,4 @@
-package com.ram.KafkaProducerDemo.config;
+package com.uma.KafkaProducerDemo.config;
 
 import java.util.HashMap;
 import java.util.Map;
